@@ -10,6 +10,7 @@ namespace ZuoYe1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("做了一点作业");
         }
     }
 
