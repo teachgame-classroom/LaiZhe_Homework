@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5369E8C6-BBE7-4060-A06C-A1D6CAF7DDA8}</ProjectGuid>
+    <ProjectGuid>{F286E82C-01D7-4AB6-9CCA-06D97B6FAACB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ZuoYe1</RootNamespace>
-    <AssemblyName>ZuoYe1</AssemblyName>
+    <RootNamespace>laiZhe3._19</RootNamespace>
+    <AssemblyName>laiZhe3.19</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Human1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Warrior.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

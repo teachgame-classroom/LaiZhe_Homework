@@ -13,6 +13,24 @@ namespace ObjecRelation
         public int posX;
         public int posY;
 
+        public void hurt(int atk)
+        {
+            if(atk>0)
+            {
+                int damage =(int)( atk * 0.9f);
+                Hp = Hp - atk;
+
+                if (Hp<=0)
+                {
+                    Console.WriteLine(); .       
+
+                }
+
+
+
+            }
+        }
+
         public  Human(int var_hp)
         {
             Hp = var_hp;

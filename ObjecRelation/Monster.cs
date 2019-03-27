@@ -38,10 +38,10 @@ namespace ObjecRelation
             if(IsTargetInRang(target)) //如果在攻击范围内，才采取攻击，
           
             {
-
+                target.hurt(atk);
                 //让这个目标扣血，对它做什么事情.改变它的属性。
                 //通过这对象的名字，找到它下面的属性或者方法——Hp，属性可以读取它，修改它。方法可以调用它。
-                target.Hp = target.Hp - atk;
+                //target.Hp = target.Hp - atk;
 
             }
             else
